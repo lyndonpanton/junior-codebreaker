@@ -66,8 +66,7 @@ n/a
 
 ## Authors
 
-Lyndon Mykal Panton
-[lyndonpanton](https://github.com/lyndonpanton/)
+Lyndon Mykal Panton: [Github](https://github.com/lyndonpanton/)
 
 ## Version History
 
