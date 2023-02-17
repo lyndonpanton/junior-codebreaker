@@ -35,7 +35,7 @@ namespace ProgrammingAssignment4
 				{
                     char currentKey = input[i].ToString().ToUpper().ToCharArray()[0];
 
-                    if (ConvertCharToIndex(currentKey) != -1)
+                    if ((int)currentKey >= 65 && (int)currentKey <= 90)
 					{
                         if (characterCounter.ContainsKey(currentKey) == false)
 						{
