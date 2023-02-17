@@ -59,6 +59,14 @@ namespace ProgrammingAssignment4
 					{ 'Z', 0 }
 				};
 
+				for (int i = 0; i < input.Length; i++)
+				{
+					if (characterCounter.ContainsKey(input[i].ToString().ToUpper().ToCharArray()[0]))
+					{
+						characterCounter[input[i].ToString().ToUpper().ToCharArray()[0]]++;
+					}
+				}
+
 
 
 				// Don't add or modify any code below
