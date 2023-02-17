@@ -49,12 +49,9 @@ namespace ProgrammingAssignment4
 
 				foreach (char key in characterCounter.Keys)
 				{
-					if (characterCounter[key] != 0)
-					{
-						Console.Write((char)key);
-						Console.Write(characterCounter[key]);
-						Console.Write(" ");
-					}
+					Console.Write((char)key);
+					Console.Write(characterCounter[key]);
+					Console.Write(" ");
                 }
 
 				Console.WriteLine();
